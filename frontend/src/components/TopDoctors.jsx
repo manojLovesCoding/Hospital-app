@@ -1,5 +1,8 @@
 import React, { useContext } from 'react'
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3549b662091fc53978f0334157c9d9f5030423a1
 import { useNavigate } from 'react-router-dom'
 import { AppContext } from '../context/AppContext'
 
@@ -26,7 +29,11 @@ const TopDoctors = () => {
                     </div>
                 ))}
             </div>
+<<<<<<< HEAD
             <button onClick={() => { navigate('/doctors'); scrollTo(0, 0) }} className='bg-blue-50 text-gray-600 px-12 py-3 rounded-full mt-10'>more</button>
+=======
+            <button onClick={() => { navigate('/doctors'); scrollTo(0,0) }} className='bg-blue-50 text-gray-600 px-12 py-3 rounded-full mt-10'>more</button>
+>>>>>>> 3549b662091fc53978f0334157c9d9f5030423a1
         </div>
     )
 }
